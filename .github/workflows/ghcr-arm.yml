@@ -4,6 +4,7 @@ on:
   push:
     tags:
       - 'v*'
+  workflow_dispatch: # Bu tetikleyiciyi ekledik
 
 env:
   REGISTRY: ghcr.io
