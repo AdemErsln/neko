@@ -18,7 +18,7 @@ jobs:
     #
     # do not run on forks
     #
-    if: github.repository_owner == 'ademersln'
+    if: github.repository_owner == 'AdemErsln'
     steps:
       -
         name: Checkout
@@ -46,7 +46,7 @@ jobs:
     #
     # do not run on forks
     #
-    if: github.repository_owner == 'm1k1o'
+    if: github.repository_owner == 'AdemErsln'
     needs: [ build-client ]
     steps:
       -
