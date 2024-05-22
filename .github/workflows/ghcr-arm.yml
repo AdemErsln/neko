@@ -1,4 +1,4 @@
-name: "arm64v8 and arm32v7 images"
+name: "neko:arm64"
 
 on:
   push:
